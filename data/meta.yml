@@ -1,0 +1,24 @@
+geo_placename: Amsterdam
+geo_position: "52.3702;4.8952"
+geo_region: NL
+
+name: HEEL COOL
+description: Hotel de botel
+image: "http://heel.cool/images/cool-social.png"
+
+fb_site_name: HEEL COOL
+fb_title: HEEL COOL - Sweet, sweet stuff
+fb_description: Hotel de botel
+fb_image: "http://heel.cool/images/cool-social.png"
+fb_type: Website
+fb_url: http://heel.cool
+
+google_name: HEEL COOL
+google_description: Hotel de botel
+google_image: "http://heel.cool/images/cool-social.png"
+
+twitter_card_type: summary_large_image
+twitter_site: "@unless_io"
+twitter_title: HEEL COOL - Let us tell your story
+twitter_description: Hotel de botel
+twitter_image: "http://heel.cool/images/cool-social.png"
