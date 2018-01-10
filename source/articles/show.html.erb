@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="banner" style="background-image:url('<%= article.banner_image.url %>');">
+        <div class="breadcrumbs">
+          <% link_to "/index.html" do %>
+            <i class="fa fa-arrow-left"></i> 
+            <p>
+              back
+            </p>
+          <% end %>
+        </div>
+        <div class="banner-content">
+          <h2>
+            <%= article.title %>
+          </h2>
+          <h3>
+            <%= article.subtitle %>
+          </h3>
+          <p>
+            <%= article.content %>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -3,6 +3,13 @@ activate :autoprefixer do |prefix|
 end
 
 activate :sprockets
+activate :dato, live_reload: true
+
+dato.tap do |dato|
+  dato.articles.each do |article|
+    proxy "/articles/#{article.slug}.html", "/articles/show.html", locals: { article: article }
+  end
+end
 
 page '/*.xml', layout: false
 page '/*.json', layout: false

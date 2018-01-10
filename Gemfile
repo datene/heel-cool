@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.3.5'
 
 gem 'middleman', '~> 4.2'
 gem 'middleman-autoprefixer', '~> 2.7'
@@ -10,4 +11,4 @@ gem 'pry-byebug', require: true
 gem 'font-awesome-middleman'
 gem 'bootstrap-sass'
 gem 'jquery-middleman'
-
+gem 'middleman-dato'

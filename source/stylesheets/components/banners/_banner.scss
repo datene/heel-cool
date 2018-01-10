@@ -1,0 +1,21 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  margin-top: 40px;
+  .banner-content {
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    left: 50px;
+    bottom: -200px;
+    box-shadow: 0px -5px 10px rgba(1,1,1,0.3);
+    padding: 10px 20px;
+    h3 {
+      font-size: 20px;
+      opacity: 0.7;
+      font-weight: 500;
+    }
+  }
+}
