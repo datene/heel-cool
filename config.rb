@@ -4,6 +4,7 @@ end
 
 activate :sprockets
 activate :dato, live_reload: true
+ignore 'articles/show.html.erb'
 
 dato.tap do |dato|
   dato.articles.each do |article|
